@@ -1,0 +1,23 @@
+.previous, .next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.55);
+    border: none;
+    cursor: pointer;
+
+    #chevron_left, #chevron_right{
+        &:hover{
+            fill-opacity: 1;
+        }
+    }
+
+    &:active{
+        scale: 1.05;
+    }
+}
+
+
