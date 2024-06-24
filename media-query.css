@@ -7,9 +7,6 @@
         width: 2.5rem;
         height: 2.5rem;
     }
-    .top-bottom-left-radius, .top-bottom-right-radius{
-        border-radius: unset;
-    }
     .page .big{
         font-size: 3.0rem;
     }
@@ -172,6 +169,9 @@
     .back.front-face{
         color: black;
         height: auto;
+    }
+    .top-bottom-left-radius, .top-bottom-right-radius{
+        border-radius: unset;
     }
     .page div.height{
         height: initial;
