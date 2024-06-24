@@ -76,6 +76,9 @@ p, li{
 .container-flex h2, .container-content{
     padding: 0.8rem;
 }
+.container-flex ul{
+    padding: 0 0.6rem;
+}
 .flex-center{
     display: flex;
     justify-content: center;
@@ -148,3 +151,9 @@ h3, .space-bottom > *{
 .height{
     height: clamp(4rem, 6.25rem, 7rem);
 }
+
+
+
+
+
+
