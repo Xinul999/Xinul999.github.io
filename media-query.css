@@ -242,7 +242,7 @@
 
 @container container-book (max-height: 800px){
     .page div.height{
-        height: 4.0rem;
+        height: 4.5rem;
     }
     .page h2{
         font-size: 1.1rem;
