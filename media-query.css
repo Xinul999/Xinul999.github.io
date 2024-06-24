@@ -242,25 +242,24 @@
 
 @container container-book (max-height: 800px){
     .page div.height{
-        height: 3.5rem;
+        height: 4.0rem;
     }
     .page h2{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
     .page h3{
-        font-size: 1.125rem;
+        font-size: 1.0rem;
     }
     .page h4{
-        font-size: 1rem;
+        font-size: 0.90rem;
+    }
+    .page p,.page h3 .page h4{
+        margin-block-start: 0.2rem;
+        margin-block-end: 0.2rem;
     }
     .page p, .page li{
         font-size: 0.938rem;
     }
-    .page p,.page h3{
-        margin-block-start: 0.7rem;
-        margin-block-end: 0.7rem;
-    }
-
     .img-profile{
         width: 5rem;
         height: 5rem;
@@ -268,10 +267,7 @@
     .page a.medium, .page button.medium{
         font-size: 1.8rem;
     }
-    .page button.medium{
-        width: 6rem;
-        height: 3rem;
-    }
+
     .page p.big{
         font-size: 2.4rem;
     }
@@ -281,7 +277,6 @@
     }
 
 }
-
 @container container-book (max-height: 600px){
     .page h2{
         font-size: 0.9rem;
