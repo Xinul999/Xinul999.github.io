@@ -42,7 +42,7 @@ li strong{
 
 h2{
     text-wrap: balance;
-    font-size: 1.75rem;
+    font-size: 1.56rem;
 }
 
 p.big{
@@ -148,9 +148,3 @@ h3, .space-bottom > *{
 .height{
     height: clamp(4rem, 6.25rem, 7rem);
 }
-
-
-
-
-
-
