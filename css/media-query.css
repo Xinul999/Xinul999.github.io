@@ -77,8 +77,19 @@
     .cover, .front.back-face, .cover-back{
         display: none;
     }
+    .around{
+        box-shadow: unset;
+
+        .height{
+            background-color: unset;
+            height: unset;
+        }
+    }
+    .container-content{
+        padding: unset;
+    }
+
     .back.front-face{
-        background-color: white;
         color: black;
     }
     article:nth-child(2) .back{
@@ -114,12 +125,21 @@
         font-size: 0.75rem;
         text-align: left;
     }
-    .front + .back{
-        padding: 1rem 0;
-    }
     .front, .back{
         background: unset;
         padding: 0;
+    }
+    .page .profile{
+        min-height: unset;
+        padding-block-start: 0.6rem;
+        padding-block-end: 0.6rem;
+    }
+    .page .img-profile{
+        width: 5rem;
+        height: 5rem;
+    }
+    .page a.medium{
+        font-size: 1rem;
     }
 
 }
@@ -286,5 +306,3 @@
     }
 
 }
-
-
