@@ -79,11 +79,12 @@
     }
     .around{
         box-shadow: unset;
-
-        .height{
-            background-color: unset;
-            height: unset;
-        }
+    }
+    .height{
+        height: unset;
+    }
+    .color-2{
+        background-color: unset;
     }
     .container-content{
         padding: unset;
@@ -306,5 +307,3 @@
     }
 
 }
-
-
