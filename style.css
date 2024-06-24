@@ -72,7 +72,9 @@ p, li{
     display: flex;
     height: 100%;
 }
-
+.container-content, .container-flex{
+    overflow-y: hidden;
+}
 .container-flex h2, .container-content{
     padding: 0.8rem;
 }
@@ -151,9 +153,3 @@ h3, .space-bottom > *{
 .height{
     height: clamp(4rem, 6.25rem, 7rem);
 }
-
-
-
-
-
-
