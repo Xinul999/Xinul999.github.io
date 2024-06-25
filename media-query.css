@@ -123,14 +123,8 @@
         font-size: 0.75rem;
         text-align: left;
     }
-    .page div .height{
-        height: initial;
-    }
     .page div .height.color-2{
         background-color: unset;
-    }
-    .around{
-        box-shadow: unset;
     }
     .front, .back{
         background: unset;
@@ -185,22 +179,19 @@
     .top-bottom-left-radius, .top-bottom-right-radius{
         border-radius: unset;
     }
-    .page div.height{
-        height: initial;
-    }
     .page .container-content{
         padding: 0;
     }
     .page h2{
         font-size: 1.375rem;
     }
-    .page div .height{
+    .page .height{
         height: initial;
     }
-    .page div .height.color-2{
+    .page .color-2{
         background-color: unset;
     }
-    .around{
+    .page .around{
         box-shadow: unset;
     }
     .page h3{
@@ -320,3 +311,5 @@
     }
 
 }
+
+
