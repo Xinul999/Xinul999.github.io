@@ -1,26 +1,29 @@
 .profile{
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     min-height: 400px;
+}
 
-    .img-profile{
-        border-radius: 50%;
-        border: 1px solid black;
-        width: 10rem;
-        height: 10rem;
-    }
+.img-profile{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+}
 
-    & address{
-        text-align: center;
-    }
+address{
+    text-align: center;
+}
 
-    & a{
-        display: block;
-        color: var(--text-bg-color);
-        margin-block-start: 1rem;
-        &:hover{
-            color: rebeccapurple;
-        }
-    }
+a{
+    display: block;
+    color: var(--text-bg-color);
+    margin-block-start: 1rem;
+}
+
+a:hover{
+    color: rebeccapurple;
 }
 
