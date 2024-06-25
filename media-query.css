@@ -123,6 +123,15 @@
         font-size: 0.75rem;
         text-align: left;
     }
+    .page div .height{
+        height: initial;
+    }
+    .page div .height.color-2{
+        background-color: unset;
+    }
+    .around{
+        box-shadow: unset;
+    }
     .front, .back{
         background: unset;
         padding: 0;
@@ -138,6 +147,9 @@
     }
     .page a.medium{
         font-size: 1rem;
+    }
+    .top-bottom-left-radius, .top-bottom-right-radius{
+        border-radius: unset;
     }
 
 }
@@ -182,8 +194,14 @@
     .page h2{
         font-size: 1.375rem;
     }
-    .page h2.height{
+    .page div .height{
         height: initial;
+    }
+    .page div .height.color-2{
+        background-color: unset;
+    }
+    .around{
+        box-shadow: unset;
     }
     .page h3{
         font-size: 1.25rem;
@@ -302,5 +320,3 @@
     }
 
 }
-
-
