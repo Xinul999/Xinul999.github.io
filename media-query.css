@@ -232,7 +232,7 @@
         break-after: page;
         page-break-after: always;
     }
-    .cover, .cover-back{
+    .cover, .cover-back, button{
         display: none;
     }
 
@@ -285,7 +285,7 @@
     }
 
     .page .text{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
 }
@@ -302,6 +302,9 @@
     }
     .page h4, .page p, .page li{
         font-size: 0.75rem;
+    }
+    .page .text{
+        font-size: 0.95rem;
     }
     .line{
         width: 0.1rem;
