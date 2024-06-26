@@ -73,7 +73,7 @@ p, li{
     height: 100%;
 }
 .container-content, .container-flex{
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .container-flex h2, .container-content{
     padding: 0.8rem;
