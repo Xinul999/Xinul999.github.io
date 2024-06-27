@@ -303,11 +303,11 @@
     .page h4, .page p, .page li{
         font-size: 0.75rem;
     }
+     .page p.big{
+        font-size: 1.5rem;
+    }
     .page .text{
         font-size: 1rem;
-    }
-    .page p.big{
-        font-size: 1.5rem;
     }
 
 }
