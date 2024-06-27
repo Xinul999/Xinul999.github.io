@@ -85,7 +85,7 @@ p, li{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: content;
 }
 .container-vertical{
     display: flex;
